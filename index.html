@@ -1,0 +1,29 @@
+---
+---
+
+<header class="intro margin-topbtm-7">
+    <h1 class="intro__head">I'm Gabriel Chuan
+        <div class="intro__sub">
+        	I leverage Cognitive & Data Science to build amazing educational technology tools ;)
+        </div>
+    </h1>
+</header>
+
+{% for post in site.posts %}
+    {% assign currentdate = post.date | date: "%Y" %}
+    {% if currentdate != date %}
+        {% unless forloop.first %}</section>{% endunless %}
+        <section id="y{{post.date | date: "%Y"}}" class="mar-b-7">
+          <h3 class="section__title">{{ currentdate }}</h3>
+          <div class="post-list">
+            {% assign date = currentdate %}
+    {% endif %}
+            <a class="post" href="{{ post.url | prepend: site.baseurl }}">
+                <span class="post__title">{{ post.title }}</span>
+                <time class="post__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %d" }}</time>
+            </a>
+    {% if forloop.last %}
+        </div>
+        </section>
+    {% endif %}
+{% endfor %}
