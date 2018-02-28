@@ -4,7 +4,13 @@ title: A Reflection On My Leadership Journey With SMU BIA
 date:   2018-02-28 23:05:13 +0800
 ---
 
-## Starting Out
+## On People
+
+
+
+## On Management
+
+## On Setbacks
 
 - hard af
 
@@ -17,6 +23,7 @@ date:   2018-02-28 23:05:13 +0800
 ## On Communicating
 
 - Sandwich method
+- Remember that we are all emotional people, to some extent. We can't deny this. Consequently, think twice before saying something. Think it through again. When I'm finally convinced, it should be packaged properly. Then deliver it with an "emotional punch"
 
 ## On Apologies
 
